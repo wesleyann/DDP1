@@ -1,5 +1,5 @@
 ---
-title: 'DDP Week #3 Assignment (Go to the next page for the plot!)'
+title: 'DDP Week #3 Assignment (Please go to the next slide for the plot!)'
 author: "EA"
 date: 'June 15, 2022'
 output: ioslides_presentation
