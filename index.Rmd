@@ -1,0 +1,24 @@
+---
+title: 'DDP Week #3 Assignment'
+author: "EA"
+date: 'June 15, 2022'
+output: ioslides_presentation
+---
+
+## A fancy plot made with Plotly!
+### By EA
+
+```{r, message = FALSE, echo = FALSE, fig.cap='June 15, 2022'}
+library(ggplot2)
+library(plotly)
+
+ 
+
+g <- mpg %>%
+  ggplot() + geom_smooth(mapping = aes(x = displ, y = hwy, linetype = drv))  
+  
+gg <- ggplotly(g)
+
+gg
+```
+
